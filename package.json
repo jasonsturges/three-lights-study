@@ -1,12 +1,19 @@
 {
-  "name": "vite-js-template",
-  "private": true,
-  "version": "0.0.0",
+  "name": "three-lights-study",
+  "version": "1.0.0",
+  "description": "Three.js lights study",
+  "author": "Jason Sturges <jason@jsonsturges.com> (https://jasonsturges.com)",
+  "repository": "github:jsonsturges/three-lights-study",
+  "license": "ISC",
   "type": "module",
   "scripts": {
     "dev": "vite --open",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "prettier": "^3.3.3",
